@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let arr = [3,5,2,7,8]
+    let max1 = 0
+    let max2 = 0
+    let max3 = 0
+    for (let i = 0; i < arr.length; i++){
+        if(arr[i] > arr[max1]){
+            arr[i] = max1 }
+    }
+    for (let i = 0; i < arr.length; i++){
+        if(arr[i] > max2 < max1 ){
+        arr[i] = max2
+        }
+    }
+    for (let i = 0; i < arr.length; i++){
+        if (arr[i] > max3 < max1 ){
+            arr[i] = max3
+        }
+    }
+console.log(max3)
+</script>
+</html>
